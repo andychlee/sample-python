@@ -34,6 +34,13 @@ my_new_food = Food(1, 3, 10)
 my_new_butter = Butter(6, 8, 10, "butter.jpg")
 plate_x1 = 2
 plate_x2 = 4
+food = []
+food.append(my_new_food)
+food.append(my_new_butter)
+
+def draw_all_food():
+    for i in range(num):
+        food[i].draw_food(s)
 
 
 print("my_new_food :")
