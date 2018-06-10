@@ -14,6 +14,9 @@ class Food:
             return False
         else:
             return True
+        
+    def draw_food(self, screen):
+        screen.create_rectangle(self.x1, self.y, self.x2, self.y2, fill="blue")
 
 # create a butter class that is also a food
 # we can use all the stuff that Food has in our Butter
