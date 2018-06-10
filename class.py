@@ -19,6 +19,8 @@ class Food:
 # we can use all the stuff that Food has in our Butter
 class Butter(Food):
     
+    image = "butter.jpg"
+    
     def __init__(self, initial_x1, initial_x2, initial_y, image_url):
         # call the base food class to initialize the x and y values
         Food.__init__(self, initial_x1, initial_x2, initial_y)
